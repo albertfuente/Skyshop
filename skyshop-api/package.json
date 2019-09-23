@@ -1,0 +1,40 @@
+{
+  "name": "skyshop-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha '**/**/*.spec.js'",
+    "test-debug": "npx mocha --inspect-brk '**/**/*.spec.js'",
+    "test:coverage": "nyc --reporter=html --reporter=text mocha logic/**/**/*.spec.js --runInBand"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "busboy": "^0.3.1",
+    "cloudinary": "^1.15.0",
+    "cors": "^2.8.5",
+    "coverage": "^0.4.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "js-sha256": "^0.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.0",
+    "mongoose": "^5.6.10",
+    "skyshop-data": "file:../skyshop-data",
+    "skyshop-utils": "file:../skyshop-utils",
+    "streamifier": "^0.1.1",
+    "yargs": "^14.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.4.0",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bcryptjs": "^2.4.3"
+}
