@@ -9,7 +9,7 @@
     "test:coverage": "nyc --reporter=html --reporter=text mocha logic/**/**/*.spec.js --runInBand"
   },
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "bcryptjs": "^2.4.3",
     "busboy": "^0.3.1",
     "cloudinary": "^1.15.0",
